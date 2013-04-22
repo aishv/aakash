@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cd"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT EDU PUNE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff9900"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:text="Education in Pune is one of the finest in India and has various engineering colleges.  Pune  is also famously called the &apos;The Oxford of the east&apos;.  Pune attracts students from all over the world. Colleges and Universities in Pune, reflect the people of the city and are as versatile as they can be. Ranging from Engineering and Medicine to Linguistics and Fine Arts, the city caters to almost every field academically. 
+ The app &apos;EDUPUNE&apos; will cater to the needs of prospective students who wish to pursue a their higher education in engineering in Pune. The app will list the names of the colleges in Pune, the courses offered, cut offs,and other essential details which will be of interest to the students."
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+ 		
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOP 8 ENGINEERING COLLEGES" 
+        android:textColor="#00ffff"/>
+		
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER CET SCORE" 
+        android:textColor="#ffcccc"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER YOUR COLLEGE" 
+         android:textColor="#9999ff"/>
+
+</LinearLayout>

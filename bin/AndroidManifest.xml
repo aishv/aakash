@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techblogon.loginexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.techblogon.loginexample.HomeActivity"
+            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".SignUPActivity"/>
+         <activity
+            android:name=".a"/>
+         
+            <activity
+            android:name=".ListMobileActivity"/>
+                <activity
+            android:name=".MobileArrayAdapter"/>
+                <activity android:name=".AddEmployee"/>
+                 <activity android:name=".Alerts"/>
+    <activity android:name=".DatabaseDemo"/>
+    <activity android:name=".DatabaseHelper"/>
+     <activity android:name=".DialogListner"/>
+     <activity android:name=".GridList"/>
+          <activity android:name=".Utilities"/>
+               <activity android:name=".Employee"/>
+                  <activity android:name=".AndroidSpinnerFromSQLiteActivity"/>
+         	   <activity android:name=".DatabaseHandler"/>
+         	   <activity android:name=".nine"/>
+         	      <activity android:name=".nineadapt"/>
+         	      <activity android:name=".seven"/>
+         	      <activity android:name=".sevenadapt"/>
+         	      <activity android:name=".five"/>
+         	      <activity android:name=".fiveadapt"/>
+         	      <activity android:name=".three"/>
+         	      <activity android:name=".threeadapt"/>
+         	      <activity android:name=".one"/>
+         	      <activity android:name=".oneadapt"/>
+    </application>
+
+</manifest>
